@@ -1,0 +1,11 @@
+body{
+    background-color: rgb(139, 134, 126);
+    font-family: 'Times New Roman', Times, serif;
+}
+.car-data{
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(5, 5, 5);
+}
+.container{
+    padding-right: 5em;
+}
