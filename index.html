@@ -4,25 +4,59 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet"href="styles.css">
+    <link rel="stylesheet" href="styles.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.7.7/handlebars.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.26.1/axios.min.js"></script>
-    <title>API Intro</title>
+    <title>API INTRO</title>
 </head>
-
-<h1>Car API Widget</h1>
-
+<h1>Cars API Widget</h1>     
 <body>
     <div class="container">
         
-        <h2>Cars Widget</h2>
+            <!-- <th> 
+                <label for="car-brand">select car:</label>
+                <select name="car-brand" id="brand">
+                    <option value="">car</option>
+                </select>
+                </th>
+                -->
 
-        <table class="car-data">
+             
+
+            <label for="car-color">select color:</label>
+            <select class="color" name="car-color" id="colors">
+                <option value="">Car color </option>
+                <option>White</option>
+                <option>Blue</option>
+                <option>Red</option>
+                <option>orange</option>
+            </select>
+            
+    
+    
+        <label for="car-brand">select brand:</label>
+        <select class="brand" name="car-brand" id="brand">
+            <option value="">Car brand</option>
+            <option>Nissan</option>
+            <option>Toyota</option>
+            <option>Ford</option>
+            <option>Volkswagen</option>
+        </select>
+    
+    <button class="button">Submit</button>
+    <div class="cars"></div> 
+ 
+        
+        <!-- </table> 
+        
+        <table class="cars">
             <th>Cars</th>
             <th>Colors</th>
             <th>Models</th>
+
         </table>
-    </div>    
+        -->
+    </div> 
     <script src="index.js"></script>
 </body>
 </html>

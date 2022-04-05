@@ -8,4 +8,16 @@ body{
 }
 .container{
     padding-right: 5em;
+    margin: auto;
+    
+}
+.cars{
+    margin:auto
+
+}
+table{
+    margin:auto;
+    padding: 2em;
+    width: 100%;
+    
 }
