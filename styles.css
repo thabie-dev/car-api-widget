@@ -12,7 +12,9 @@ body{
     
 }
 .cars{
-    margin:auto
+    margin:auto;
+    padding: 2em;
+    width: 100%;
 
 }
 table{
@@ -20,4 +22,7 @@ table{
     padding: 2em;
     width: 100%;
     
+}
+td {
+    text-align: center;
 }
